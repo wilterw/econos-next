@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import { useLanguage } from "../context/LanguageContext";
+import { useLanguage } from "../context/languagecontext";
 
 export default function Header() {
   const { language, toggleLanguage, t } = useLanguage();

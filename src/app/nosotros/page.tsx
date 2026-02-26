@@ -2,12 +2,12 @@
 import { useRef, useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { RevealParent, RevealChild } from "../../components/FadeIn"; 
-import { useLanguage } from "../../context/LanguageContext"; 
+import { RevealParent, RevealChild } from "../../components/fadein"; 
+import { useLanguage } from "../../context/languagecontext"; 
 
-import Typewriter from "../../components/Typewriter";
-import Magnetic from "../../components/Magnetic";
-import TextMask from "../../components/TextMask";
+import Typewriter from "../../components/typewriter";
+import Magnetic from "../../components/magnetic";
+import TextMask from "../../components/textmask";
 
 // Componente local para aplicar Scroll Zoom a cada imagen de forma independiente
 function ImageWithParallax({ src, alt }: { src: string, alt: string }) {

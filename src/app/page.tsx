@@ -2,12 +2,12 @@
 import { useRef, useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { RevealParent, RevealChild } from "../components/FadeIn"; 
-import { useLanguage } from "../context/LanguageContext";
+import { RevealParent, RevealChild } from "../components/fadein"; 
+import { useLanguage } from "../context/languagecontext";
 
-import Magnetic from "../components/Magnetic";
-import TextMask from "../components/TextMask";
-import TiltCard from "../components/TiltCard";
+import Magnetic from "../components/magnetic";
+import TextMask from "../components/textmask";
+import TiltCard from "../components/tiltcard";
 
 // Separamos la lógica y animación en este sub-componente
 function HomeContent() {

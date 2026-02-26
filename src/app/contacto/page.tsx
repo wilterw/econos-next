@@ -1,6 +1,6 @@
 "use client";
-import { RevealParent, RevealChild } from "../../components/FadeIn"; 
-import { useLanguage } from "../../context/LanguageContext";
+import { RevealParent, RevealChild } from "../../components/fadein"; 
+import { useLanguage } from "../../context/languagecontext";
 
 export default function Contacto() {
   const { t } = useLanguage();

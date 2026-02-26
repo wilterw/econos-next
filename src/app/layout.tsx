@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import { Inter, Space_Grotesk, Inter_Tight } from "next/font/google";
 import "./globals.css";
 
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import SmoothScroll from "../components/SmoothScroll";
-import GlobalBackground from "../components/GlobalBackground"; 
-import { LanguageProvider } from "../context/LanguageContext"; // <--- IMPORTANTE: El proveedor de idiomas
+import Header from "../components/header";
+import Footer from "../components/footer";
+import SmoothScroll from "../components/smoothscroll";
+import GlobalBackground from "../components/globalbackground"; 
+import { LanguageProvider } from "../context/languagecontext"; // <--- IMPORTANTE: El proveedor de idiomas
 
 // Configuración de fuentes
 const inter = Inter({
